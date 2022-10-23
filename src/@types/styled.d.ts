@@ -8,5 +8,9 @@ declare module 'styled-components' {
       grayDark: string
       greenDark: string
     }
+    fonts: {
+      semiBold: string
+      medium: string
+    }
   }
 }

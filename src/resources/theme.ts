@@ -6,5 +6,9 @@ export const theme: DefaultTheme = {
     blue: '#07689F',
     grayDark: '#424F4D',
     greenDark: '#006557'
+  },
+  fonts: {
+    semiBold: 'Montserrat_600SemiBold',
+    medium: 'Montserrat_500Medium'
   }
 }

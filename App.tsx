@@ -1,7 +1,13 @@
-import { Button, Text } from 'react-native'
+import { Button } from 'react-native'
 import styled, { ThemeProvider } from 'styled-components/native'
+import {
+  useFonts,
+  Montserrat_600SemiBold,
+  Montserrat_500Medium
+} from '@expo-google-fonts/montserrat'
 import { theme } from './src/resources/theme'
 import Logo from './src/ui/logo'
+import { RFValue } from 'react-native-responsive-fontsize'
 
 const Header = styled.View`
   flex: 2;
@@ -22,7 +28,22 @@ const LogoContainer = styled.View`
   width: 100%;
 `
 
+const Description = styled.Text`
+  font-family: ${({ theme }) => theme.fonts.medium};
+  color: ${({ theme }) => theme.colors.grayDark};
+  font-size: ${RFValue(14)}px;
+`
+
 export default function App () {
+  const [fontsLoaded] = useFonts({
+    Montserrat_600SemiBold,
+    Montserrat_500Medium
+  })
+
+  if (!fontsLoaded) {
+    return null
+  }
+
   return (
     <ThemeProvider theme={theme}>
       <Header>
@@ -32,7 +53,7 @@ export default function App () {
       </Header>
 
       <Main>
-        <Text>Selecione seu perfil abaixo para acessar sua conta:</Text>
+        <Description>Selecione seu perfil abaixo para acessar sua conta:</Description>
         <Button title='Responsável'/>
         <Button title='Profissional'/>
       </Main>
