@@ -1,13 +1,14 @@
-import { Button } from 'react-native'
 import styled, { ThemeProvider } from 'styled-components/native'
 import {
   useFonts,
   Montserrat_600SemiBold,
   Montserrat_500Medium
 } from '@expo-google-fonts/montserrat'
+import { RFValue } from 'react-native-responsive-fontsize'
+
 import { theme } from './src/resources/theme'
 import Logo from './src/ui/logo'
-import { RFValue } from 'react-native-responsive-fontsize'
+import { Button } from './src/button/button'
 
 const Header = styled.View`
   flex: 2;
@@ -54,8 +55,9 @@ export default function App () {
 
       <Main>
         <Description>Selecione seu perfil abaixo para acessar sua conta:</Description>
-        <Button title='Responsável'/>
-        <Button title='Profissional'/>
+
+        <Button>Responsável</Button>
+        <Button secondary>Profissional</Button>
       </Main>
     </ThemeProvider>
   )
