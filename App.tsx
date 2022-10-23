@@ -7,6 +7,7 @@ import {
 
 import { theme } from './src/resources/theme'
 import { Login } from './src/pages/login'
+import { StatusBar } from 'expo-status-bar'
 
 export default function App () {
   const [fontsLoaded] = useFonts({
@@ -20,6 +21,7 @@ export default function App () {
 
   return (
     <ThemeProvider theme={theme}>
+      <StatusBar style='light'/>
       <Login />
     </ThemeProvider>
   )

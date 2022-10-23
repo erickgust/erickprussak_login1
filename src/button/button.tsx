@@ -8,7 +8,7 @@ type ButtonProps = {
 
 function Button ({ children, secondary }: ButtonProps) {
   return (
-    <S.Button secondary={secondary}>
+    <S.Button secondary={secondary} activeOpacity={0.7}>
       <S.Text secondary={secondary}>
         {children}
       </S.Text>
