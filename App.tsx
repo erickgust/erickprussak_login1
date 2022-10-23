@@ -1,23 +1,33 @@
-import { StatusBar } from 'expo-status-bar';
-import { Text } from 'react-native';
-import styled, { ThemeProvider } from 'styled-components/native';
-import { theme } from './src/resources/theme';
+import { Button, Text } from 'react-native'
+import styled, { ThemeProvider } from 'styled-components/native'
+import { theme } from './src/resources/theme'
 
-const StyledView = styled.View`
-  flex: 1;
-  background-color: ${({ theme }) => theme.backgroundColor};
+const Header = styled.View`
+  flex: 2;
+  background-color: ${({ theme }) => theme.colors.greenDark};
+  justify-content: center;
+  align-items: center;
+`
+
+const Main = styled.View`
+  flex: 3;
+  background-color: ${({ theme }) => theme.colors.white};
   align-items: center;
   justify-content: center;
 `
 
-export default function App() {
+export default function App () {
   return (
     <ThemeProvider theme={theme}>
-      <StyledView>
-        <Text>Open up App.js to start working on your app!</Text>
-        <StatusBar style="auto" />
-      </StyledView>
-    </ThemeProvider>
-  );
-}
+      <Header>
+        <Text>Ester</Text>
+      </Header>
 
+      <Main>
+        <Text>Selecione seu perfil abaixo para acessar sua conta:</Text>
+        <Button title='Responsável'/>
+        <Button title='Profissional'/>
+      </Main>
+    </ThemeProvider>
+  )
+}
