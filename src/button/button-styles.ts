@@ -9,7 +9,9 @@ export const Button = styled.TouchableOpacity<ButtonProps>`
 ${({ theme, secondary }) => css`
   background-color: ${theme.colors.blue};
   width: 100%;
-  padding: 8px 0;
+  padding: ${RFValue(12)}px 0;
+  border-radius: 4px;
+  margin-bottom: ${RFValue(16)}px;
 
   ${secondary && css`
     background-color: ${theme.colors.white};

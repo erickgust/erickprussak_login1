@@ -25,3 +25,8 @@ export const Description = styled.Text`
   color: ${({ theme }) => theme.colors.grayDark};
   font-size: ${RFValue(14)}px;
 `
+
+export const ButtonContainer = styled.View`
+  margin-top: ${RFValue(32)}px;
+  width: 100%;
+`

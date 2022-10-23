@@ -16,8 +16,10 @@ export function Login () {
           Selecione seu perfil abaixo para acessar sua conta:
         </S.Description>
 
-        <Button>Responsável</Button>
-        <Button secondary>Profissional</Button>
+        <S.ButtonContainer>
+          <Button>Responsável</Button>
+          <Button secondary>Profissional</Button>
+        </S.ButtonContainer>
       </S.Main>
     </>
   )
