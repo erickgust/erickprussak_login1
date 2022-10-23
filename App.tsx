@@ -1,6 +1,7 @@
 import { Button, Text } from 'react-native'
 import styled, { ThemeProvider } from 'styled-components/native'
 import { theme } from './src/resources/theme'
+import Logo from './src/ui/logo'
 
 const Header = styled.View`
   flex: 2;
@@ -16,11 +17,18 @@ const Main = styled.View`
   justify-content: center;
 `
 
+const LogoContainer = styled.View`
+  max-width: 35%;
+  width: 100%;
+`
+
 export default function App () {
   return (
     <ThemeProvider theme={theme}>
       <Header>
-        <Text>Ester</Text>
+        <LogoContainer>
+          <Logo />
+        </LogoContainer>
       </Header>
 
       <Main>
