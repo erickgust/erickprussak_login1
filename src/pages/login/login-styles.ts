@@ -1,4 +1,4 @@
-import { RFValue } from 'react-native-responsive-fontsize'
+import { RFPercentage, RFValue } from 'react-native-responsive-fontsize'
 import styled from 'styled-components/native'
 
 export const Header = styled.View`
@@ -16,7 +16,7 @@ export const Main = styled.View`
 `
 
 export const LogoContainer = styled.View`
-  max-width: 35%;
+  height: ${RFPercentage(15)}px;
   width: 100%;
 `
 
