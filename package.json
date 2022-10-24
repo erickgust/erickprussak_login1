@@ -2,7 +2,7 @@
   "name": "esther",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "https://erickgust.github.io/esther",
+  "homepage": "https://erickgust.github.io/erickprussak_login1",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",

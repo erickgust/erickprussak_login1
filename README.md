@@ -1,20 +1,20 @@
 <h1 align="center">Welcome to esther 👋</h1>
 <p align="center">
-  <a href="https://github.com/erickgust/esther" target="_blank">
-    <img  width="200" alt="Logo" src="https://raw.githubusercontent.com/erickgust/esther/main/.github/logo.svg">
+  <a href="https://github.com/erickgust/erickprussak_login1" target="_blank">
+    <img  width="200" alt="Logo" src="https://raw.githubusercontent.com/erickgust/erickprussak_login1/main/.github/logo.svg">
   </a>
 </p>
 
 > Tela de login do aplicativo Esther
 
-### ✨ [Demo](https://erickgust.github.io/esther/)
+### ✨ [Demo](https://erickgust.github.io/erickprussak_login1/)
 
 ## Usage
 
 Clone this project:
 
 ```sh
-git clone git@github.com:erickgust/esther.git
+git clone git@github.com:erickgust/erickprussak_login1.git
 ```
 
 Install the dependencies:
