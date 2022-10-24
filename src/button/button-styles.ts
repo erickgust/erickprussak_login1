@@ -27,4 +27,5 @@ export const Text = styled.Text<TextProps>`${({ theme, secondary }) => css`
   color: ${secondary ? theme.colors.blue : theme.colors.white};
   font-family: ${theme.fonts.semiBold};
   text-align: center;
+  font-size: ${RFValue(14)}px;
 `}`
