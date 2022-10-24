@@ -12,7 +12,7 @@ export const Main = styled.View`
   flex: 3;
   background-color: ${({ theme }) => theme.colors.white};
   align-items: center;
-  padding: 24px;
+  padding: ${RFValue(24)}px;
 `
 
 export const LogoContainer = styled.View`
@@ -23,7 +23,7 @@ export const LogoContainer = styled.View`
 export const Description = styled.Text`
   font-family: ${({ theme }) => theme.fonts.medium};
   color: ${({ theme }) => theme.colors.grayDark};
-  font-size: ${RFValue(14)}px;
+  font-size: ${RFValue(16)}px;
 `
 
 export const ButtonContainer = styled.View`
