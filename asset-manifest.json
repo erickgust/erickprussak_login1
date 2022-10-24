@@ -1,0 +1,40 @@
+{
+  "files": {
+    "app.js": "/erickprussak_login1/static/js/app.e36ab5b2.chunk.js",
+    "app.js.map": "/erickprussak_login1/static/js/app.e36ab5b2.chunk.js.map",
+    "runtime~app.js": "/erickprussak_login1/static/js/runtime~app.2b3b1bbe.js",
+    "runtime~app.js.map": "/erickprussak_login1/static/js/runtime~app.2b3b1bbe.js.map",
+    "static/js/2.c747898d.chunk.js": "/erickprussak_login1/static/js/2.c747898d.chunk.js",
+    "static/js/2.c747898d.chunk.js.map": "/erickprussak_login1/static/js/2.c747898d.chunk.js.map",
+    "fonts/Montserrat_100Thin.ttf": "/erickprussak_login1/./fonts/Montserrat_100Thin.ttf",
+    "fonts/Montserrat_100Thin_Italic.ttf": "/erickprussak_login1/./fonts/Montserrat_100Thin_Italic.ttf",
+    "fonts/Montserrat_200ExtraLight.ttf": "/erickprussak_login1/./fonts/Montserrat_200ExtraLight.ttf",
+    "fonts/Montserrat_200ExtraLight_Italic.ttf": "/erickprussak_login1/./fonts/Montserrat_200ExtraLight_Italic.ttf",
+    "fonts/Montserrat_300Light.ttf": "/erickprussak_login1/./fonts/Montserrat_300Light.ttf",
+    "fonts/Montserrat_300Light_Italic.ttf": "/erickprussak_login1/./fonts/Montserrat_300Light_Italic.ttf",
+    "fonts/Montserrat_400Regular.ttf": "/erickprussak_login1/./fonts/Montserrat_400Regular.ttf",
+    "fonts/Montserrat_400Regular_Italic.ttf": "/erickprussak_login1/./fonts/Montserrat_400Regular_Italic.ttf",
+    "fonts/Montserrat_500Medium.ttf": "/erickprussak_login1/./fonts/Montserrat_500Medium.ttf",
+    "fonts/Montserrat_500Medium_Italic.ttf": "/erickprussak_login1/./fonts/Montserrat_500Medium_Italic.ttf",
+    "fonts/Montserrat_600SemiBold.ttf": "/erickprussak_login1/./fonts/Montserrat_600SemiBold.ttf",
+    "fonts/Montserrat_600SemiBold_Italic.ttf": "/erickprussak_login1/./fonts/Montserrat_600SemiBold_Italic.ttf",
+    "fonts/Montserrat_700Bold.ttf": "/erickprussak_login1/./fonts/Montserrat_700Bold.ttf",
+    "fonts/Montserrat_700Bold_Italic.ttf": "/erickprussak_login1/./fonts/Montserrat_700Bold_Italic.ttf",
+    "fonts/Montserrat_800ExtraBold.ttf": "/erickprussak_login1/./fonts/Montserrat_800ExtraBold.ttf",
+    "fonts/Montserrat_800ExtraBold_Italic.ttf": "/erickprussak_login1/./fonts/Montserrat_800ExtraBold_Italic.ttf",
+    "fonts/Montserrat_900Black.ttf": "/erickprussak_login1/./fonts/Montserrat_900Black.ttf",
+    "fonts/Montserrat_900Black_Italic.ttf": "/erickprussak_login1/./fonts/Montserrat_900Black_Italic.ttf",
+    "favicon-16.png": "/erickprussak_login1/favicon-16.png",
+    "favicon-32.png": "/erickprussak_login1/favicon-32.png",
+    "favicon.ico": "/erickprussak_login1/favicon.ico",
+    "index.html": "/erickprussak_login1/index.html",
+    "manifest.json": "/erickprussak_login1/manifest.json",
+    "serve.json": "/erickprussak_login1/serve.json",
+    "static/js/2.c747898d.chunk.js.LICENSE.txt": "/erickprussak_login1/static/js/2.c747898d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.2b3b1bbe.js",
+    "static/js/2.c747898d.chunk.js",
+    "static/js/app.e36ab5b2.chunk.js"
+  ]
+}
